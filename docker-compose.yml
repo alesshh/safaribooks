@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  cmd:
+    image: python:3.9.0-buster
+    working_dir: /var/app
+    command: /bin/bash
+    volumes:
+      - .:/var/app
